@@ -1,0 +1,125 @@
+ html, body {
+    height:100%;
+    background-color: rgba(150, 170, 158, 0.94);
+} 
+.intro {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  text-align: center;
+}
+
+.introh1 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  text-align: center;
+}
+
+.introh2 {
+  color: #425D4D;
+  font-family: Cardo;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  width: 184.38px;
+  text-align: center;
+  margin: 6.70px;
+}
+.button {
+ position: absolute;
+  top: 70%;
+  left: 40%;
+  text-align: center;
+
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 62px;
+  width: 108px;
+  border-radius: 12px;
+}
+
+.header {
+  background-color: #96AA9E;
+  width: 20%;
+  height: 20%;
+  margin: 5%;
+}
+*/
+
+.menu {
+  background-color: #FFFFFF;
+  opacity: 0.99;
+  width: 275.64px;
+  height: 73.75px;
+}
+
+h1 {
+  color: #425D4D;
+  font-family: Cardo;
+  font-size: 15px;
+  text-align: center;
+}
+
+h2  {
+  color: #555;
+  font: 20px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  color: #425D4D;
+  font-family: Cardo;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  width: 184.38px;
+  text-align: center;
+  margin: 6.70px;
+}
+
+.imgfondo {
+  background-repeat: no-repeat;
+  background-image: url(../img/vintage.jpg);
+  width: 100%;
+  height: 100%;
+  min-width: 100px;
+  min-height: 100%;
+  position: relative;
+  right: 0;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  margin: 5px,5px;
+}
+
+.back1{
+  background-color: #96AA9E;
+}
+
+.imgperfil{
+  width: 100%;
+  height: 100%;
+  min-width: 100px;
+  min-height: 100%;
+  background-size: cover;
+
+  background-image: url("https://marvel-live.freetls.fastly.net/canvas/2018/5/daa04dc2fef24c9d968d0a900e66ec74?quality=95&fake=.png");
+}
+.menubox{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  min-width: 100px;
+  min-height: 100%;
+  background-size: cover;
+}
+
