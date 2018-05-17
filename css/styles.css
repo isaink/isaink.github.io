@@ -2,6 +2,10 @@ html, body {
     height:100%;
     background-color: rgba(150, 170, 158, 0.94);
 } 
+.reachcolor{
+  color: #425D4D;
+  font-family: Cardo;
+}
 .intro {
   position: absolute;
   top: 50%;
@@ -165,6 +169,10 @@ h3 {
 .marginreach1 {
   margin-top: 30px;
   margin-right: 20px;
+}
+.marginbox {
+  margin: 30px;
+  padding: 100%;
 }
 
 .marginpjbox {
