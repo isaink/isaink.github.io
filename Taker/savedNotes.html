@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"/>
+		<!-- Style CSS -->
+  		<link rel="stylesheet" type="text/css" href="../css/styles.css">
+  		<!-- fonts google-->
+  		<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Oswald|Shrikhand|Cormorant+Garamond" rel="stylesheet">
+  		
+
+  	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<title>Note Taker</title>
+
+	</head>
+
+	<body class=" bg2" style="height: 500px">
+		<!-- Bootrasp full width container -->
+		<div class="container-fluid">
+		<!-- header -->
+			<header id="top">
+				<!-- Brand or Logo--> 
+				<nav class="navbar col header navbar-expand-lg navbar-light">
+	  			<a class="navbar-brand" href="#" style="font-family: 'Crimson Text', serif; color: white;">NOTE TAKER</a>
+				 	<!-- Menu dropdown -->
+				 	<div class="dropdown menu ">
+	  					<button class="btn btn-secondary dropdown-toggle drop2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  						<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="dropdown-menu menu2" aria-labelledby="dropdownMenuButton">
+						  <a class="dropdown-item item2" href="savedNotes.html">Saved Notes</a>
+						  <a class="dropdown-item item2" href="../index.html">New Notes</a>
+						</div>
+					</div>
+	  				<div class="collapse navbar-collapse" id="navbarNavAltMarkup"></div> 
+				</nav>
+			</header>
+
+		</div>
+			<br>
+			<br>
+			<br>
+		<div>
+
+
+			<div class="container-fluid" style="height: 400px">
+				<div class="row">
+					<div class="col-md-4 col-sm-3">
+						<div class="card card01">
+							<p class="Notes">Very Important</p>
+							<div class="lines"></div>
+
+							<ol id=redL"></ol>
+
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-9">
+						<div class="card card01">
+							<p class="Notes">Medium Priority
+</p>
+							<div class="lines"></div>
+							<ol id="yellowL"></ol>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<div class="card card01">
+							<p class="Notes">Follow Up</p>
+							<div class="lines"></div>
+							<ol id="greenL"></ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="../js/main.js"></script>
+	</body>
+</html>

@@ -1,44 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>home</title>
-	<meta name="viewport" content="width=device-width,
-	initial-scale=1, shrink-to-fit=no"/>
-	<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/boots
-	trap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/styles.css">
-</head>
+	<head>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- fonts google-->
+		<link href="https://fonts.googleapis.com/css?family=Markazi+Text|PT+Sans|Crimson+Text" rel="stylesheet">
+		<!-- Style CSS -->
+		<link rel="stylesheet" type="text/css" href="../css/styles.css">
 
-<body>
-	<div class="container-fluid imgfondo">
-			<div class="row">
-					<ul class="nav">
-		  <li class="nav-item">
-		    <a class="nav-link active" href="home.html">HOME</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="aboutme.html">ABOUT ME</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="projects.html">PROJECTS</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="reachme.html">REACH ME</a>
-		  </li>
-		</ul>  
-				</div>
-		<div class="col-2 card back1" style="width: 18rem;">
-  			<img class="card-img-top btn-group"  src="https://marvel-live.freetls.fastly.net/canvas/2018/5/daa04dc2fef24c9d968d0a900e66ec74?quality=95&fake=.png/100px180/" alt="Perfil">
-			  <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MENU</button>
-			<div class="dropdown-menu">
-			    <a class="dropdown-item" href="#">About Me</a>
-			    <a class="dropdown-item" href="#">Projects</a>
-			    <a class="dropdown-item" href="#">Reach Me</a>
-			    <div class="dropdown-divider"></div>
-			    <a class="dropdown-item" href="#">Separated link</a>
-  			</div>
+		<meta name="viewport" content="width=device-width,  initial-scale=1, shrink-to-fit=no"/>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	    <title>Home</title>
+	</head>
+	<body>
+		<div class="container-fluid imgfondo" style=" height: 100%;">
+			<div class="col-2 card back1" id="border" style="width: 18rem;">
+				
+				<div class="card"style="background-color: black;">
+				
+		  			<img class="card-img-top btn-group"  src="https://marvel-live.freetls.fastly.net/canvas/2018/5/daa04dc2fef24c9d968d0a900e66ec74?quality=95&fake=.png/100px180/" alt="Perfil">
+					<div class="dropdown show">
+						<a class="btn btn-dark dropdown-toggle" id="menu"  href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  MENU  </a>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						    <a class="dropdown-item" href="aboutme.html">About Me</a>
+						    <div class="dropdown-divider"></div>
+						    <a class="dropdown-item" href="projects.html">Projects</a>
+						    <div class="dropdown-divider"></div>
+						    <a class="dropdown-item" href="reachme.html">Reach Me</a>
+						    <div class="dropdown-divider"></div>
+						    <a class="dropdown-item" href="home.html">HOME</a>
+			  			</div>
+			  		</div>
+			  	</div>
+			  	</div>
+
+			</div>
 		</div>
-	</div>
-</body>
+	</body>
 </html>

@@ -1,71 +1,77 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>  </title>
-	<meta name="viewport" content="width=device-width,
-	initial-scale=1, shrink-to-fit=no"/>
-	<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/boots
-	trap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/styles.css">
-</head>
+	<head>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- fonts google-->
+		<link href="https://fonts.googleapis.com/css?family=Markazi+Text|PT+Sans" rel="stylesheet">
+		<!-- Style CSS -->
+		<link rel="stylesheet" type="text/css" href="../css/styles.css">
 
-<body>
-	<div class="container-fluid imgfondo">
-			<div class="row">
-					<ul class="nav">
-		  <li class="nav-item">
-		    <a class="nav-link active" href="home.html">HOME</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="aboutme.html">ABOUT ME</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="projects.html">PROJECTS</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="reachme.html">REACH ME</a>
-		  </li>
-		</ul>  
-				</div>
-		<div class="row margin"> 
-			<div class="col-2 back1">
-				<div class="card back1">
-			  		<img class="card-img-top btn-group"  src="https://marvel-live.freetls.fastly.net/canvas/2018/5/daa04dc2fef24c9d968d0a900e66ec74?quality=95&fake=.png/100px180/" alt="Perfil">
-						<button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MENU</button>
-						<div class="dropdown-menu">
-						    <a class="dropdown-item" href="#">About Me</a>
-						    <a class="dropdown-item" href="#">Projects</a>
-						    <a class="dropdown-item" href="#">Reach Me</a>
-						    <div class="dropdown-divider"></div>
-						    <a class="dropdown-item" href="#">Separated link</a>
-			  			</div>
-				</div>
-			</div>
-				<div class="col-3 mr-auto back1">					
-					<h1 class="name">ISA ALVARADO</h1>
-				</div>
-		</div>
-		<div class="row margin">
-			<div class="col-5 back1">
-				<div class="card" id="margin">
-					<div class="card-body boxme back1">
-						<p>Falling deep into Code's World</p>
-						<p>I am a web designer and developer in training in NYC Tech Talent Pipeline’s Bridge-To-Tech program, along with a Bachelor Degree in Advertising in the Dominican Republic with knowledge of Graphic Design and Photography.</p><p>I want to grow more and go deeper in the word of Code, in that I would show more interactive solutions. I find myself really motivated with create web/app development.</p>
-						<p>I am looking to build up my professional network as a web designer and developer so that I can expand my career opportunities.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-5 ml-auto back1">
+		<meta name="viewport" content="width=device-width,  initial-scale=1, shrink-to-fit=no"/>
+	    <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-				<div class="card" id="margin">
-					<div class="card-body boxme back1">
-						<h1>WHAT I GOOD AT?</h1>
-						<p> I know Graphic Design and Photography, Marketing Strategy, and Branding.</p>My technical skills include Adobe Premiere, Photoshop, Illustrator, Indesign, Flash, and I am learning HTML, CSS, and JavaScript.</p>
-					</div>
-				</div>	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<title> About Me </title>
+	</head>
+
+	<body>
+		<div class="container-fluid imgfondo">
+			<div class="col card back1" id="border" style="width: 18rem;">
+				<div class="card"style="background-color: black;">
+				  		<img class="card-img-top btn-group"  src="https://marvel-live.freetls.fastly.net/canvas/2018/5/daa04dc2fef24c9d968d0a900e66ec74?quality=95&fake=.png/100px180/" alt="Perfil">
+				  		<div class="dropdown show" id="menuA">
+							<a class="btn btn-dark dropdown-toggle" id="menu" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MENU</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<a class="dropdown-item" href="home.html">Home</a>
+								<div class="dropdown-divider"></div>
+							    <a class="dropdown-item" href="aboutme.html">About Me</a>
+							    <div class="dropdown-divider"></div>
+							    <a class="dropdown-item" href="projects.html">Projects</a>
+							    <div class="dropdown-divider"></div>
+							    <a class="dropdown-item" href="reachme.html">Reach Me</a>    
+				  			</div>
+				  		</div>
+				</div>
+			</div>
+					
+			
+			<div class="row margin">
+				<div class="col-2"></div>
+				<div class="card col-9 content" >
+					<div class="row">
+						
+						<div class="card col-6">
+							<div class="card-body boxme boxA ">
+								<nav class="navbar navbar-expand-lg navbar-light" style=" background-color:#ffd6cc;" >
+									<h1 ><strong> WHO I AM?</strong></h1>
+								</nav>
+								<p> My name is <strong> Isa Alvarado</strong>. I was born in the Dominican Republic and recently I live in New York since June 2017. Lover of art and creativity.</p>
+								<p> I am a web designer and developer in training in <strong> NYC Tech Talent Pipeline’s Bridge-To-Tech program </strong>, along with a <strong> Bachelor Degree in Advertising </strong>in the Dominican Republic with knowledge of <strong> Graphic Design </strong> and <strong> Photography</strong>.</p>
+								<p>I want to grow more in the word of Coding, in that I would show more interactive web/app. I find myself very motivated to be a Web Developer.</p>
+								<p>I am looking to build up my professional network as a web designer and developer so that I can expand my career opportunities.</p>
+							</div>
+						</div>
+
+						<div class="card col-6" >
+							<div class="card-body boxme boxA">
+								<nav class="navbar navbar-expand-lg navbar-light" style=" background-color:#ffd6cc;">
+									<h1><strong>WHAT I GOOD AT?</strong></h1>
+								</nav>
+								<p> <strong> My Skills: </strong></p>
+								<div class="card-img-top">
+									<img src="../img/skills.png" style=" height: 200px;">
+								</div>
+								
+							</div>
+						</div>
+					</div>	
+				</div>
 			</div>
 		</div>
-	</div>
-</body>
+	</body>
 </html>

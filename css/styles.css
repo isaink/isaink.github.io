@@ -30,27 +30,6 @@ html, body {
   text-align: center;
   margin: 6.70px;
 }
-.button {
- position: absolute;
-  top: 70%;
-  left: 40%;
-  text-align: center;
-
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-
-  font-family: Lato;
-  font-weight: 400;
-  line-height: 62px;
-  width: 108px;
-  border-radius: 12px;
-}
 
 .header {
   background-color: #96AA9E;
@@ -58,13 +37,24 @@ html, body {
   height: 20%;
   margin: 5%;
 }
-*/
 
-.menu {
-  background-color: #FFFFFF;
-  opacity: 0.99;
-  width: 275.64px;
-  height: 73.75px;
+#menu {
+  float: inherit;
+  font-family: 'Crimson Text', serif;
+  font-size: 15PX;
+  text-align: center; 
+  background-color: black;
+  margin-left:  25%;
+  padding: 5px;
+}
+.menuA{
+  float: inherit;
+  font-family: 'Crimson Text', serif;
+  font-size: 15PX;
+  text-align: center; 
+  background-color: black;
+  margin-left:  10%;
+  padding: 5px;
 }
 
 h1 {
@@ -109,18 +99,15 @@ h3 {
 }
 
 .imgfondo {
-  background-repeat: no-repeat;
   background-image: url(../img/vintage.jpg);
+  background-size: cover; 
+  object-fit: cover;
   width: 100%;
   height: 100%;
-  min-width: 100px;
-  min-height: 100%;
   position: relative;
-  right: 0;
   object-fit: cover;
   background-position: center;
-  background-size: cover;
-  margin: 5px,5px;
+  
 }
 .clear {
   height: 30px;
@@ -138,10 +125,19 @@ h3 {
 }
 .back1{
   background-color: #96AA9E;
+  
 }
-.opacity {
-  opacity: 0.7;
+.content{
+  background-color: #96AA9E;
+  padding: 10px;
+
+
 }
+#border{
+  border-color: white;
+  border-style: solid;
+}
+
 .name {
   font-family: Garamond;
   font-size:20px;
@@ -149,10 +145,13 @@ h3 {
 
 .boxme {
   background-color: white;
-  border-color: gray;
+  border-color: black;
+   padding-bottom:  15px;
+
 }
 .box {
   height: 250px;
+   margin: 5px;
 }
 
 .marginpj {
@@ -184,9 +183,67 @@ h3 {
 
 }
 .margin {
-  margin-left: 5px;
+  margin: 5px;
+   margin-bottom: 100px;
+
 }
 #margin {
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin: 10px;
+  margin-bottom: 5px;
+
+}
+.boxA{
+ height:280px;
+  overflow-y: scroll;
+  margin:  5px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+#tamano{
+  height: 500px;
+  width: 400px;
+  position: relative;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
 }
